@@ -92,4 +92,4 @@ gradle插件方便的让我们可以让每个模块独立调试和运行。在�
 		
 		
 ##联系作者
-![联系方法](https://https://github.com/fanjianli/AssemblyProject/blob/master/notice/lianxi.png)
+![联系方法](https://github.com/fanjianli/AssemblyProject/blob/master/notice/lianxi.png)
