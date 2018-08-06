@@ -4,11 +4,8 @@
 	工程不复杂，适合正在学习组件化的童鞋。
 
 	
-![table](https://github.com/fanjianli/AssemblyProject/blob/master/notice/table.png)
-![主页](https://github.com/fanjianli/AssemblyProject/blob/master/notice/app.png)
-![app](https://github.com/fanjianli/AssemblyProject/blob/master/notice/app1.png)
-![fav](https://github.com/fanjianli/AssemblyProject/blob/master/notice/fav.png)
-![market](https://github.com/fanjianli/AssemblyProject/blob/master/notice/market.png)
+![table](https://github.com/fanjianli/AssemblyProject/blob/master/notice/table.png)![主页](https://github.com/fanjianli/AssemblyProject/blob/master/notice/app.png)
+![app](https://github.com/fanjianli/AssemblyProject/blob/master/notice/app1.png)![fav](https://github.com/fanjianli/AssemblyProject/blob/master/notice/fav.png)![market](https://github.com/fanjianli/AssemblyProject/blob/master/notice/market.png)
 
 ##What 组件化
 * 组件化是将一个app分成多个模块，可以对每个模块进行独立调试，每个模块可以独立运行，打包时最终发布将所有的组件统一合并成一个apk，也可以将某些组件合并成一个apk，主app就相当于一个apk的壳。
