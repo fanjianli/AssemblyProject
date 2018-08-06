@@ -1,5 +1,9 @@
 # 代码结构
     一个app跑n个工程 组件化开发
+    每个工程可直接独立存在
+    每个工程可直接独立存在
+    每个工程可直接独立存在
+    重要的事说3遍
  
 <img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/code.png" width="650" height="400" alt="代码结构"/>
 
