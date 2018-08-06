@@ -33,13 +33,12 @@
 * 3.公共库（library）：公共使用的工具类，sdk等库，例如eventbus，xutils，rxandroid，自定义工具类等等，这些库可以做成一个公共common sdk，也可以实现抽离很细按照需求依赖使用。
 
 ## 实现
-		通过使用阿里路由框架和gradle插件完成组件化的架构。
-	阿里路由：[ARouter](https://github.com/alibaba/ARouter)
-	gradle插件：[build-gradle](https://dl.bintray.com/fjl/maven/com/fjl/assembly/build-gradle/1.0.1)
-
+	通过使用阿里路由框架和gradle插件完成组件化的架构。
+	阿里路由：https://github.com/alibaba/ARouter
+	gradle插件：https://dl.bintray.com/fjl/maven/com/fjl/assembly/build-gradle/1.0.1
     阿里路由很方便的帮我们完成了页面之间的路由。
-		
     关于阿里路由，阿里文档有详细介绍，请移驾。
+	
 	
 gradle插件方便的让我们可以让每个模块独立调试和运行。在工程的build.gradle中加入插件：
 		
@@ -56,9 +55,9 @@ gradle插件方便的让我们可以让每个模块独立调试和运行。在�
         classpath 'com.fjl.assembly:build-gradle:1.0.1'
     	}
 	}
-使用该插件时除公公模块其他组件和app不用在apply plugin: 'com.android.application'或者apply plugin: 'com.android.library',
-
-	请使用
+	
+使用该插件时除公公模块其他组件和app不用在apply plugin: 'com.android.application'或者apply plugin: 'com.android.library',请使用
+		
 		apply plugin: 'com.fjl.comgradle'
 
 在每个组件模块中加入gradle.properties文件并指定	
@@ -86,7 +85,6 @@ gradle插件方便的让我们可以让每个模块独立调试和运行。在�
 * 如遇到AndroidManifest文件合并错误等异常，请仔细查看demo代码。
 
 ## DEMO
-	(此处缺少图片)
 * basiclib：公共模块，抽取base和一些框架的依赖。
 * app：壳工程，此demo中将app作为一个主页的容器使用。
 * communitymodel:信箱模块，可独立运行。
@@ -98,5 +96,5 @@ gradle插件方便的让我们可以让每个模块独立调试和运行。在�
 		
 		
 ## 联系作者
-<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/lianxi.png" width="150" height="150" alt="联系方式"/>
+<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/lianxi.png" width="250" height="250" alt="联系方式"/>
 
