@@ -2,11 +2,13 @@
 	本demo用《下厨房》app做为原型；
 	以主页作为app壳，主页5个fragment作为模块进行组件化架构。
 	工程不复杂，适合正在学习组件化的童鞋。
+
 	
-	![主页](https://github.com/fanjianli/AssemblyProject/blob/master/notice/app.png)
-	![app](https://github.com/fanjianli/AssemblyProject/blob/master/notice/app1.png)
-	![fav](https://github.com/fanjianli/AssemblyProject/blob/master/notice/fav.png)
-	![market](https://github.com/fanjianli/AssemblyProject/blob/master/notice/market.png)
+![table](https://github.com/fanjianli/AssemblyProject/blob/master/notice/table.png)
+![主页](https://github.com/fanjianli/AssemblyProject/blob/master/notice/app.png)
+![app](https://github.com/fanjianli/AssemblyProject/blob/master/notice/app1.png)
+![fav](https://github.com/fanjianli/AssemblyProject/blob/master/notice/fav.png)
+![market](https://github.com/fanjianli/AssemblyProject/blob/master/notice/market.png)
 
 ##What 组件化
 * 组件化是将一个app分成多个模块，可以对每个模块进行独立调试，每个模块可以独立运行，打包时最终发布将所有的组件统一合并成一个apk，也可以将某些组件合并成一个apk，主app就相当于一个apk的壳。
@@ -19,7 +21,9 @@
 * 业务降级，业务组件在促销高峰期间可以业务为单元关闭，保证核心业务组件的顺利执行。
 
 ##方案
-	（此处缺少图片）
+
+![方案](https://github.com/fanjianli/AssemblyProject/blob/master/notice/fangan.png)
+
 从图片可以看出，主要有三个角色：
 
 * 1.主工程（壳工程module）：主要负责事情不塞入任何具体业务逻辑，主要用于使用组合业务组件，初始化配置和发布应用配置等操作。
@@ -92,4 +96,4 @@ gradle插件方便的让我们可以让每个模块独立调试和运行。在�
 		
 		
 ##联系作者
-	此处缺少图片
+![联系方法](https://https://github.com/fanjianli/AssemblyProject/blob/master/notice/lianxi.png)
