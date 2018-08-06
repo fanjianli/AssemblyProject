@@ -1,10 +1,17 @@
+# 代码结构
+    一个app跑n个工程 组件化开发
+  
 # 演示
 	本demo用《下厨房》app做为原型；
 	以主页作为app壳，主页5个fragment作为模块进行组件化架构。
 	工程不复杂，适合正在学习组件化的童鞋。
 
-	
-![table](https://github.com/fanjianli/AssemblyProject/blob/master/notice/table.png)![主页](https://github.com/fanjianli/AssemblyProject/blob/master/notice/app.png)![app](https://github.com/fanjianli/AssemblyProject/blob/master/notice/app1.png)![fav](https://github.com/fanjianli/AssemblyProject/blob/master/notice/fav.png)![market](https://github.com/fanjianli/AssemblyProject/blob/master/notice/market.png)
+<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/table.png" width="350" height="500" alt="桌面"/>
+<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/app.png" width="350" height="500" alt="主页"/>
+<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/app1.png" width="350" height="500" alt="主页1"/>
+<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/fav.png" width="350" height="500" alt="收藏"/>
+<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/market.png" width="350" height="500" alt="gouwu"/>
+
 
 ## What 组件化
 * 组件化是将一个app分成多个模块，可以对每个模块进行独立调试，每个模块可以独立运行，打包时最终发布将所有的组件统一合并成一个apk，也可以将某些组件合并成一个apk，主app就相当于一个apk的壳。
@@ -18,7 +25,7 @@
 
 ## 方案
 
-<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/fangan.png" width="150" height="150" alt="图片加载失败时，显示这段字"/>
+<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/fangan.png" width="650" height="300" alt="方案"/>
 
 从图片可以看出，主要有三个角色：
 
@@ -91,5 +98,6 @@ gradle插件方便的让我们可以让每个模块独立调试和运行。在�
 		demo只提供思想和抽取的粗糙方案，细化和应用请各位自行发挥。
 		
 		
-##联系作者
-![联系方法](https://github.com/fanjianli/AssemblyProject/blob/master/notice/lianxi.png)
+## 联系作者
+<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/lianxi.png" width="150" height="150" alt="联系方式"/>
+
