@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    package="com.fjl.selfmodel">
+
+    <application
+        android:name=".runalone.MyApplication"
+        android:allowBackup="true"
+        android:label="@string/self_app_name"
+        android:supportsRtl="true"
+        android:icon="@drawable/icon"
+        android:roundIcon="@drawable/icon"
+        android:theme="@style/commonAppTheme"
+        tools:replace="android:label">
+        <activity android:name=".runalone.SelfTestActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

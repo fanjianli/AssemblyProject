@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_above="@+id/view_line"
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_height="0.1dp"
+        android:layout_width="match_parent"
+        android:background="#DCDBDB"
+        android:layout_above="@+id/rl_bottom"/>
+
+    <LinearLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+        <RelativeLayout
+            android:id="@+id/xiachufang"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/img_xiachufang"
+                android:src="@drawable/xiachufang"
+                android:scaleX="0.8"
+                android:scaleType="fitXY"
+                android:scaleY="0.8"
+                android:layout_centerHorizontal="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"  />
+            <TextView
+                android:id="@+id/text_xiachufang"
+                android:text="下厨房"
+                android:textColor="@color/color_555"
+                android:gravity="center"
+                android:textSize="11sp"
+                android:layout_below="@+id/img_xiachufang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/shopping"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/img_shopping"
+                android:src="@drawable/makert"
+                android:layout_centerHorizontal="true"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:scaleType="fitXY"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:textColor="@color/color_555"
+                android:id="@+id/text_shopping"
+                android:text="市集"
+                android:gravity="center"
+                android:textSize="11sp"
+                android:layout_below="@+id/img_shopping"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/fav"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:scaleType="fitXY"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                 android:id="@+id/img_fav"
+                android:src="@drawable/myfav"
+                android:layout_centerHorizontal="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+            <TextView
+
+                android:id="@+id/text_fav"
+                android:text="收藏"
+                android:textSize="11sp"
+                android:textColor="@color/color_555"
+                android:gravity="center"
+                android:layout_below="@+id/img_fav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+         </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/community"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/img_community"
+                android:src="@drawable/community"
+
+                android:scaleType="fitXY"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:layout_centerHorizontal="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/text_community"
+                android:text="信箱"
+                android:textSize="11sp"
+                android:textColor="@color/color_555"
+                android:gravity="center"
+                android:layout_below="@+id/img_community"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/self"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/img_self"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:src="@drawable/self"
+
+                android:scaleType="fitXY"
+                android:layout_centerHorizontal="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/text_self"
+                android:text="我"
+
+                android:textSize="11sp"
+                android:textColor="@color/color_555"
+                android:gravity="center"
+                android:layout_below="@+id/img_self"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
