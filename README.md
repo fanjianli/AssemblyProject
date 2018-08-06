@@ -1,5 +1,5 @@
 
-演示
+#演示
 	本demo用《下厨房》app做为原型；
 	以主页作为app壳，主页5个fragment作为模块进行组件化架构。
 	工程不复杂，适合正在学习组件化的童鞋。
@@ -7,17 +7,17 @@
 	
 ![table](https://github.com/fanjianli/AssemblyProject/blob/master/notice/table.png)![主页](https://github.com/fanjianli/AssemblyProject/blob/master/notice/app.png)![app](https://github.com/fanjianli/AssemblyProject/blob/master/notice/app1.png)![fav](https://github.com/fanjianli/AssemblyProject/blob/master/notice/fav.png)![market](https://github.com/fanjianli/AssemblyProject/blob/master/notice/market.png)
 
-What 组件化
+#What 组件化
 * 组件化是将一个app分成多个模块，可以对每个模块进行独立调试，每个模块可以独立运行，打包时最终发布将所有的组件统一合并成一个apk，也可以将某些组件合并成一个apk，主app就相当于一个apk的壳。
 
-组件化的好处
+#组件化的好处
 * 架构清晰业务组件间完成解耦合。
 * 每个业务组件都可以根据BU需求完成独立app发布。
 * 开发中使开发者更加轻松，开发中加快功能开发调试的速度。
 * 业务组件整体删除添加替换变得非常轻松，减少工程中的代码资源等冗余文件。
 * 业务降级，业务组件在促销高峰期间可以业务为单元关闭，保证核心业务组件的顺利执行。
 
-方案
+#方案
 
 ![方案](https://github.com/fanjianli/AssemblyProject/blob/master/notice/fangan.png)
 
@@ -75,12 +75,12 @@ gradle插件方便的让我们可以让每个模块独立调试和运行。在�
 详情请见代码。
 
 
-模块的独立运行
+#模块的独立运行
 * 前提：配合github代码完成上述配置。（isRunAlone=true）
 * 在模块工程下main下建立runalone文件夹将runalone文件夹作为工程文件夹即可。（详情见代码）
 * 如遇到AndroidManifest文件合并错误等异常，请仔细查看demo代码。
 
-DEMO
+#DEMO
 	(此处缺少图片)
 * basiclib：公共模块，抽取base和一些框架的依赖。
 * app：壳工程，此demo中将app作为一个主页的容器使用。
@@ -92,5 +92,5 @@ DEMO
 		demo只提供思想和抽取的粗糙方案，细化和应用请各位自行发挥。
 		
 		
-联系作者
+#联系作者
 ![联系方法](https://github.com/fanjianli/AssemblyProject/blob/master/notice/lianxi.png)
