@@ -6,11 +6,9 @@
 	以主页作为app壳，主页5个fragment作为模块进行组件化架构。
 	工程不复杂，适合正在学习组件化的童鞋。
 
-<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/table.png" width="350" height="500" alt="桌面"/>
-<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/app.png" width="350" height="500" alt="主页"/>
-<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/app1.png" width="350" height="500" alt="主页1"/>
-<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/fav.png" width="350" height="500" alt="收藏"/>
-<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/market.png" width="350" height="500" alt="gouwu"/>
+<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/table.png" width="250" height="500" alt="桌面"/><img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/app.png" width="250" height="500" alt="主页"/><img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/app1.png" width="250" height="500" alt="主页1"/>
+<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/fav.png" width="250" height="500" alt="收藏"/>
+<img src="https://github.com/fanjianli/AssemblyProject/blob/master/notice/market.png" width="250" height="500" alt="gouwu"/>
 
 
 ## What 组件化
